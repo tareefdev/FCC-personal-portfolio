@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <script src="https://use.fontawesome.com/188fa357f8.js"></script>
+
+    <style media="screen">
+    body {
+        position: relative;
+    }
+    .navbar {
+      background-color: #f06677;
+      box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+    }
+      .bodypage {
+        background-color: #f8f8f8;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .2);
+      }
+      .whoami {
+        height: auto;
+        margin: auto;
+        width: 95%;
+        padding-top: 100px;
+        padding-bottom: 30px;
+      }
+      h2 {
+        padding-bottom: 20px;
+      }
+      h3 {
+        color: #d8d8d8;
+        text-align: center;
+      }
+      .bio {
+        font-size: 30px;
+      }
+      .mywork {
+        background-color: #FFF7BD;
+        text-align: center;
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+      .test {
+          margin: auto;
+      }
+      img {
+        padding: 7px;
+        padding-bottom: 15px;
+      }
+      .contact {
+        background-color: #474747;
+        color: #fff;
+        padding: 20px;
+      }
+      .contact hr {
+        display: block;
+        content: "";
+        height: 30px;
+        margin-top: -31px;
+        border-style: solid;
+        border-color: #8c8b8b;
+        border-width: 0 0 1px 0;
+        border-radius: 20px;
+        width: 30%;
+      }
+      .social-links{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-size: 27px;
+     }
+     .social-links  li {
+        display: inline;
+        padding-right: 7px;
+}
+    .social-links  li a {
+        color: #2c2c2c;
+    }
+    </style>
+  </head>
+  <body data-spy="scroll" data-target="#navbar-spy">
+
+    <div class="container">
+
+    <nav class="navbar navbar-toggleable-md navbar-light fixed-top bg-faded" id="navbar-spy">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">TareefDev</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#one">About me<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#two">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a href="#three" class="nav-link">Contact</a>
+      </li>
+    </ul>
+</div>
+</nav>
+
+    <div class="bodypage">
+
+        <div class="whoami text-center">
+          <div class="row">
+            <div class="col-md-9">
+              <h1 id="one">Hi!</h1>
+              <p class="bio">My name is Tareef Mando, I'm Front-End Developer, open source enthusiast, and blogger.</p>
+              <h3>Simple . Happy . Open</h3>
+              <ul class="social-links">
+                <li><a href="https://twitter.com/tareefdev" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/tareefq" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/tareef-mando-6ba443101/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <img src="me.png" alt="this is me!" class="img-fluid">
+            </div>
+          </div>
+        </div>
+
+        <div class="mywork">
+          <h2 id="two">My Portfolio</h2>
+
+          <div class="row">
+            <div class="col-md-6">
+                <img src="p1.jpg" alt="my first work!" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <img src="p2.jpg" alt="my second work!" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <img src="p3.jpg" alt="my third work!" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <img src="p4.jpg" alt="my forth work!" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <img src="p5.png" alt="my fifth work!" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <img src="p6.jpg" alt="my sixth work!" class="img-fluid">
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="contact center-text">
+          <h3 id="three">Contact me</h3>
+            <hr class="hr-contactme">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="form-group row">
+                    <label for="inputEmail3" class="col-md-2 col-form-label">Name</label>
+                    <div class="col-md-6">
+                      <input type="text" class="form-control" id="inputEmail3" placeholder="your name">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-6">
+                      <input type="email" class="form-control" id="inputPassword3" placeholder="your email">
+                  </div>
+            </div>
+            <div class="form-group row">
+              <label for="exampleTextarea" class="col-sm-2 col-form-label">Message</label>
+              <div class="col-sm-6">
+              <textarea class="form-control" id="exampleTextarea"></textarea>
+            </div>
+            </div>
+            <div class="form-group row">
+                  <div class="offset-sm-2 col-sm-10">
+                    <button type="submit" class="btn btn-primary">Send</button>
+                  </div>
+                </div>
+              </div>
+            <div class="col-md-5">
+              <p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
+              <p>I promise to reply A.S.A.P.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+    </div>
+    </div>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
